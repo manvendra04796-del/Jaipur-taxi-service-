@@ -13,7 +13,7 @@ Simple aur clean website jisme log Jaipur mein taxi book kar sakein.
 
 ## Live Website
 👉 [Click here to see live site](https://manvendra04796-del.github.io/Jaipur-taxi-service-/)
-*(GitHub Pages on karne ke baad yahan link daal dena)*
+*(welcome to our site and enjoying yourself traveling)*
 
 ## Technologies Used
 - HTML5
