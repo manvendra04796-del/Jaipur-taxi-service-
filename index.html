@@ -1,0 +1,100 @@
+<<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaipur Taxi & Sightseeing Services</title>
+    <style>
+        :root { --pink: #e91e63; --dark: #2c3e50; --gold: #f1c40f; }
+        body { font-family: 'Arial', sans-serif; margin: 0; background-color: #f8f9fa; color: var(--dark); }
+        .header { background: var(--pink); color: white; padding: 20px; text-align: center; }
+        .section-title { text-align: center; padding: 20px; color: var(--pink); text-transform: uppercase; border-bottom: 2px solid var(--pink); margin: 20px 50px; }
+        .container { padding: 15px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        
+        /* Taxi Card Style */
+        .card { background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid #ddd; }
+        .card img { width: 100%; height: 200px; object-fit: cover; }
+        .card-content { padding: 15px; }
+        .price-tag { color: #27ae60; font-weight: bold; font-size: 1.2rem; }
+        .details-list { font-size: 0.9rem; margin: 10px 0; padding-left: 20px; }
+        
+        /* Button Style */
+        .btn-book { background: #25D366; color: white; display: block; text-align: center; padding: 12px; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 10px; }
+        
+        /* Sightseeing Points Style */
+        .point-box { background: #fff0f5; padding: 10px; border-radius: 8px; margin-bottom: 5px; border-left: 5px solid var(--pink); }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Jaipur Royal Taxi Services</h1>
+    <p>Jaipur Sightseeing & Outstation Tours</p>
+</div>
+
+<h2 class="section-title">Aapki Sawari (Our Fleet)</h2>
+<div class="container">
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=500" alt="Dzire Taxi">
+        <div class="card-content">
+            <h3>Swift Dzire / Hyundai Aura</h3>
+            <p class="price-tag">₹2500 / Full Day (8hrs/80km)</p>
+            <ul class="details-list">
+                <li>Sawaari: 4+1 Person</li>
+                <li>AC: Fully Functional</li>
+                <li>Luggage: 2-3 Bags</li>
+                <li>Payment: 20% Advance, 80% After Trip</li>
+            </ul>
+            <a href="https://wa.me/917878376751?text=Dzire booking enquiry" class="btn-book">WhatsApp Booking</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1621348062821-268e37d88568?w=500" alt="Ertiga Taxi">
+        <div class="card-content">
+            <h3>Maruti Ertiga (SUV)</h3>
+            <p class="price-tag">₹3500 / Full Day (8hrs/80km)</p>
+            <ul class="details-list">
+                <li>Sawaari: 6+1 Person</li>
+                <li>AC: Dual AC System</li>
+                <li>Best for: Family Trips</li>
+                <li>Payment: Cash/UPI accepted</li>
+            </ul>
+            <a href="https://wa.me/917878376751?text=Ertiga booking enquiry" class="btn-book">WhatsApp Booking</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=500" alt="Tempo Traveller">
+        <div class="card-content">
+            <h3>Tempo Traveller</h3>
+            <p class="price-tag">₹5500 / Full Day</p>
+            <ul class="details-list">
+                <li>Sawaari: 12 to 17 Seater</li>
+                <li>Pushback Seats & Music System</li>
+                <li>Best for: Large Groups/Friends</li>
+                <li>Timing: 9:00 AM to 8:00 PM</li>
+            </ul>
+            <a href="https://wa.me/917878376751?text=Tempo Traveller enquiry" class="btn-book">WhatsApp Booking</a>
+        </div>
+    </div>
+</div>
+
+<h2 class="section-title">Most Visited Places (Sightseeing)</h2>
+<div class="container" style="display: block; margin: 0 50px;">
+    <div class="point-box"><b>1. Amer Fort:</b> Timing 8am-6pm. Heritage experience.</div>
+    <div class="point-box"><b>2. Hawa Mahal:</b> The Palace of Winds. Best for photos.</div>
+    <div class="point-box"><b>3. Jal Mahal:</b> Water Palace. Evening view is best.</div>
+    <div class="point-box"><b>4. City Palace:</b> Royal Museum & History.</div>
+    <div class="point-box"><b>5. Jantar Mantar:</b> World's largest sundial.</div>
+    <div class="point-box"><b>6. Nahargarh Fort:</b> Sunset point & City view.</div>
+    <div class="point-box"><b>7. Albert Hall Museum:</b> Beautiful architecture.</div>
+    <p style="text-align: center; color: gray;">... aur 400+ anay points ke liye sampark karein!</p>
+</div>
+
+<div style="background: var(--dark); color: white; padding: 20px; text-align: center; margin-top: 30px;">
+    <p>© 2026 Jaipur Royal Travels | Safety First</p>
+</div>
+
+</body>
+</html>
